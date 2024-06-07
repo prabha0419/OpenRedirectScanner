@@ -4,20 +4,20 @@ This tool scans URLs for potential open redirect vulnerabilities. It is structur
 
 Project Structure :
 
-openred/
-│
-├── main.py # Entry point of the application
-├── packages/
-│ └── includes/
-│ ├── init.py # Init file for includes module
-│ ├── file.py # File handling functions
-│ ├── scan.py # Scanning functions
-│ └── write.py # File writing functions
-└── units/
-├── init.py # Init file for units module
-├── banner.py # Banner display function
-├── chknet.py # Network checking function
-└── urls.py # Data related to URLs (e.g., blog URL)
+    openred/
+    │
+    ├── main.py 
+    ├── packages/
+    │ └── includes/
+    │ ├── init.py 
+    │ ├── file.py 
+    │ ├── scan.py 
+    │ └── write.py 
+    └── units/
+    ├── init.py 
+    ├── banner.py 
+    ├── chknet.py 
+    └── urls.py 
 
 How to Set Up :
 
